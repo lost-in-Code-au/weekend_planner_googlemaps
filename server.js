@@ -63,7 +63,7 @@ entry.post('/delete', function(req, res){
   });
 });
 
-MongoClient.connect('mongodb://localhost:27017/weekend_router', function(err, database) {
+MongoClient.connect('mongodb://heroku_fhpvzqzt:j0at1selchl2be4rdauvjb9km@ds243325.mlab.com:43325/heroku_fhpvzqzt', function(err, database) {
 
   if(err) {
     console.log(err);
