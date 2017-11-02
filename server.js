@@ -74,7 +74,7 @@ MongoClient.connect('mongodb://localhost:27017/weekend_router', function(err, da
 
   console.log('Connected to database');
 
-  entry.listen(3000, function() {
+  entry.listen(5000, function() {
     console.log('Listening on port 3000');
   });
 });
