@@ -1,0 +1,36 @@
+{
+  "name": "weekend_router",
+  "version": "1.0.0",
+  "description": "A sample Node.js app using Express 4 and googlemaps",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "bundle": "cd client && webpack -w"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "google-maps": "^3.2.1",
+    "mongodb": "^2.2.31",
+    "body-parser": "^1.17.2",
+    "webpack": "^3.5.3"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Reece jones",
+  "license": "MIT"
+}
